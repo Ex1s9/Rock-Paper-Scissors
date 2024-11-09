@@ -65,7 +65,7 @@ h1 {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   h1 {
     font-size:1.5rem;
   }
@@ -84,20 +84,23 @@ h1 {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   h1 {
-    font-size:1.5rem;
+    font-size:1rem;
   }
   .choices {
     button {
-      font-size: 3rem;
+      font-size: 1.7rem;
       min-width: 40px;
     }
   }
   #playerDisplay, #botDisplay {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
   .scoreDisplay {
-    font-size: 1rem;
+    font-size: 0.5rem;
+  }
+  #resultDisplay {
+    font-size: 2rem;
   }
 }
